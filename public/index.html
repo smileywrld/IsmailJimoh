@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en" class="scroll-smooth dark">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,5 +22,19 @@
 			rel="stylesheet"
 		/>
 	</head>
-	<body></body>
+	<body
+		class="font-sans text-gray-900 dark:text-white bg-white dark:bg-dark-background transition-colors duration-300"
+	>
+		<!-- dark mode background gradient colors -->
+		<div
+			class="fixed inset-0 -z-10 opacity-0 dark:opacity-100 transition-opacity duration-500 pointer-events-none"
+		>
+			<div
+				class="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10"
+			></div>
+		</div>
+
+        <!-- Header Section -->
+         
+	</body>
 </html>
